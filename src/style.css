@@ -1,0 +1,9 @@
+body {
+	background-color: #222;
+	font-family: cursive;
+	color: white;
+}
+
+.deb {
+	border: 3px dashed blue;
+}
