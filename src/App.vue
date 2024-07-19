@@ -1,10 +1,10 @@
 <script>
-import ProjectList from "./views/ProjectList.vue";
+import AppProjects from "./views/AppProjects.vue";
 
 export default {
 	name: "App",
 	components: {
-		ProjectList,
+		AppProjects,
 	},
 	data() {
 		return {};
@@ -14,13 +14,13 @@ export default {
 </script>
 
 <template>
+	<AppHeader />
+
 	<h1 class="text-center fw-bold display-3 my-4 text-warning">Vite-Boolfolio</h1>
 
-	<div class="container">
-		<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-5">
-			<ProjectList />
-		</div>
-	</div>
+	<AppProjects />
+
+	<router-view />
 </template>
 
 <style></style>
