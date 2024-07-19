@@ -1,15 +1,13 @@
 <script>
-import AppMain from "./components/AppMain.vue";
+import ProjectList from "./views/ProjectList.vue";
 
 export default {
 	name: "App",
 	components: {
-		AppMain,
+		ProjectList,
 	},
 	data() {
-		return {
-			base_url: "http://",
-		};
+		return {};
 	},
 	mounted() {},
 };
@@ -20,7 +18,7 @@ export default {
 
 	<div class="container">
 		<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-5">
-			<AppMain />
+			<ProjectList />
 		</div>
 	</div>
 </template>
