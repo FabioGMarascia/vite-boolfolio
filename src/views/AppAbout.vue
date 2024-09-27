@@ -9,7 +9,7 @@ export default {
 
 <template>
 	<div class="col text-center">
-		<h1 class="text-center fw-bold display-3 my-5 text-warning">ABOUT</h1>
+		<h1 class="text-center fw-bold display-4 my-5 text-warning">ABOUT</h1>
 	</div>
 </template>
 

@@ -29,7 +29,7 @@ export default {
 		<div v-if="post">
 			<div class="p-5 mb-4">
 				<div class="col text-center">
-					<h1 class="text-center fw-bold display-3 text-warning">PROJECT DETAILS</h1>
+					<h1 class="text-center fw-bold display-4 text-warning">PROJECT DETAILS</h1>
 				</div>
 			</div>
 
